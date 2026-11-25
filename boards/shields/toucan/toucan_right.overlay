@@ -83,3 +83,8 @@
 &trackpad_split {
     device = <&tps43_trackpad>;
 };
+
+&trackpad_listener {
+    status = "okay";
+    device = <&tps43_trackpad>;
+};
